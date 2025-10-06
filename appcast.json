@@ -1,7 +1,7 @@
 {
     "identifier": "bob.deepseek.explainer",
     "version": "1.0.1",
-    "url": "https://github.com/jiayouzl/bob-deepseek-explainer/raw/main/bob-deepseek-explainer.bobplugin",
+    "url": "https://github.com/jiayouzl/bob-deepseek-explainer/releases/download/1.0.1/bob-deepseek-explainer.bobplugin",
     "minBobVersion": "1.8.0",
     "notes": [
         "🎉 初始版本发布",
