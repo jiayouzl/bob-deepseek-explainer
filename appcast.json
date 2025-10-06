@@ -1,0 +1,15 @@
+{
+    "identifier": "bob.deepseek.explainer",
+    "version": "1.0.1",
+    "url": "https://github.com/jiayouzl/bob-deepseek-explainer/raw/main/bob-deepseek-explainer.bobplugin",
+    "minBobVersion": "1.8.0",
+    "notes": [
+        "🎉 初始版本发布",
+        "✨ 支持DeepSeek-V3.2-Exp模型",
+        "⚡ 实现流式输出功能",
+        "📊 添加Token使用统计",
+        "🛡️ 完善错误处理机制",
+        "🔧 丰富的配置选项"
+    ],
+    "release_date": "2025-10-07"
+}

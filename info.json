@@ -1,0 +1,78 @@
+{
+    "identifier": "bob.deepseek.explainer",
+    "version": "1.0.1",
+    "category": "translate",
+    "name": "DeepSeek解释",
+    "summary": "使用DeepSeek大模型快速解释所选文本",
+    "icon": "",
+    "author": "Mark",
+    "homepage": "https://github.com/jiayouzl/bob-deepseek-explainer",
+    "appcast": "https://github.com/jiayouzl/bob-deepseek-explainer/raw/main/appcast.json",
+    "minBobVersion": "1.8.0",
+    "options": [
+        {
+            "identifier": "endpoint",
+            "type": "text",
+            "title": "endpoint",
+            "defaultValue": "https://api.deepseek.com",
+            "textConfig": {
+                "type": "visible"
+            }
+        },
+        {
+            "identifier": "deepseekApiKey",
+            "type": "text",
+            "title": "DeepSeek API Key"
+        },
+        {
+            "identifier": "prompt",
+            "type": "text",
+            "title": "Prompt",
+            "defaultValue": "用不超过100字的简明语言解释，禁止Markdown格式",
+            "textConfig": {
+                "type": "visible"
+            }
+        },
+        {
+            "identifier": "model",
+            "type": "menu",
+            "defaultValue": "deepseek-chat",
+            "title": "Model",
+            "menuValues": [
+                {
+                    "title": "deepseek-chat",
+                    "value": "deepseek-chat"
+                },
+                {
+                    "title": "deepseek-coder",
+                    "value": "deepseek-coder"
+                }
+            ]
+        },
+        {
+            "identifier": "specificModel",
+            "type": "text",
+            "title": "指定模型",
+            "textConfig": {
+                "type": "visible",
+                "placeholderText": "留空则使用Model配置的模型"
+            }
+        },
+        {
+            "identifier": "showExtraInfo",
+            "type": "menu",
+            "defaultValue": "false",
+            "title": "展示调用额外信息(模型, token消耗)",
+            "menuValues": [
+                {
+                    "title": "展示",
+                    "value": "true"
+                },
+                {
+                    "title": "不展示",
+                    "value": "false"
+                }
+            ]
+        }
+    ]
+}
